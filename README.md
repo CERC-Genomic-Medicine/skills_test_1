@@ -2,7 +2,9 @@
 
 ## Problem description
 
-Given input genotypes in VCF files (one file per chromosome), implement a workflow which:
+<img src="https://github.com/CERC-Genomic-Medicine/skills_test_1/blob/main/workflow.jpg?raw=true" width="600px">
+
+Given input genotypes in VCF files (one file per chromosome), implement a workflow (see Figure) which:
 
 1. Identifies unrelated individuals from genotype data (use existing open source software tools such as KING and/or PLINK).
 
