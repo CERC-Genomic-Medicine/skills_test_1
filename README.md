@@ -1,10 +1,10 @@
 # skills_test_1
 
+This repository stores input files, example output files, and description of the problem which is designed to assist in evaluation of skills of job candidates.
+
 ## Problem description
 
-<img src="https://github.com/CERC-Genomic-Medicine/skills_test_1/blob/main/workflow.jpg?raw=true" width="600px">
-
-Given input genotypes in VCF files (one file per chromosome), implement a workflow (see Figure) which:
+Given input genotypes in VCF files (one file per chromosome), implement a workflow (see Figure below) which:
 
 1. Identifies unrelated individuals from genotype data (use existing open source software tools such as KING and/or PLINK).
 
@@ -20,6 +20,8 @@ Given input genotypes in VCF files (one file per chromosome), implement a workfl
     **Monomorphic variants (i.e. with AC = 0) must be excluded.**
 
 3. For each variant, computes average depth's percentile value (AVG_DP_P) in VCF INFO field. If variant v<sub>i</sub> has the average depth value AVG_DP<sub>i</sub>, then its average depth's percentile value AVG_DP_P<sub>i</sub> is equal to the percentage of variants across all VCF files with AVG_DP < AVG_DP<sub>i</sub>.
+
+<img src="https://github.com/CERC-Genomic-Medicine/skills_test_1/blob/main/workflow.jpg?raw=true" width="400px">
 
 ## Problem solution
 
